@@ -1,0 +1,73 @@
+body {
+    background: rgb(239,218,128);
+    background: linear-gradient(90deg, rgba(239,218,128,1) 50%, rgba(252,248,219,1) 100%);    margin: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  
+  #interface {
+  /*   height: 400px; */
+    width: 400px;
+    color: whitesmoke;
+    border-radius: 30px;
+    background-color: rgb(44, 47, 54);
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+  }
+  
+  .label {
+    margin: 1.2rem 0 0 1.5rem;
+  }
+
+  #swap-label {
+      font-size: 24px;
+  }
+  
+  #interface-input-container {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .interface-input {
+    outline: none;
+    background-color: rgb(44, 47, 54);
+    color: whitesmoke;
+    border: none;
+    margin: 0.5rem 0 0 1.5rem;
+    font-size: 24px;
+  }
+  
+  .spacer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  #swap-button {
+    margin-top: 1.2rem;
+    background-color: rgb(64, 68, 79);
+    border-radius: 20px;
+    margin: 1.2rem 0 0 1.5rem;
+    width: 90%;
+    font-size: 24px;
+    color: whitesmoke;
+    padding: 16px;
+  }
+
+  #logo {
+      height: 60px;
+      width: 60px;
+      margin: 1.2rem 0 0 1.2rem;
+  }
