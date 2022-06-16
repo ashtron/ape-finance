@@ -1,0 +1,23 @@
+{
+  "name": "ape-finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtron/ape-finance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashtron/ape-finance/issues"
+  },
+  "homepage": "https://github.com/ashtron/ape-finance#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  }
+}
